@@ -8,18 +8,101 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+  <div class="wrapper">
 
-  <header>
+    <header>
+        <div class="hero-banner">
+          <img src="images/banner_image.jpg" alt="Underwater picture" id="banner-image">
+          <h1>Scuba Diving</h1>
+        </div>
+      <div class="navigation">
+        <nav>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Story</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-  </header>
+    <main>
+      <article class="content">
 
-  <main>
+        <h2>Exploring the Depths</h2>
 
-  </main>
+        <div class="clearfix">
+          <img id="fl-image" src="images/content_image.jpg" alt="poeple swimming in the sea">
+          <p>Scuba diving is a captivating and exhilarating adventure that allows individuals to explore the underwater world. With the aid of a self-contained underwater breathing apparatus, divers can descend beneath the surface and experience the weightless sensation that comes with being immersed in water. It is a unique opportunity to witness the beauty and diversity of marine life, from vibrant coral reefs to fascinating creatures like sea turtles, dolphins, and colorful tropical fish. Scuba diving opens the door to a mesmerizing realm filled with awe-inspiring sights and the thrill of exploration.</p>
 
-  <footer>
-    <p></p>
-  </footer>
+          <p>Beyond the incredible marine life, scuba diving offers the chance to explore extraordinary dive sites. From historic shipwrecks that hold stories of the past to mysterious underwater caves and caverns shrouded in darkness, each location has its own allure and sense of adventure. Divers can navigate through intricate coral formations, marvel at the diversity of underwater ecosystems, and witness the delicate balance of life beneath the waves. It is a world waiting to be discovered, where every dive promises new encounters and breathtaking experiences.
+          </p>
+            
+          <p>However, scuba diving also requires proper training, knowledge, and safety precautions. Divers must be aware of potential risks, such as decompression sickness and strong currents, and follow established protocols to ensure their safety. Nevertheless, the rewards of scuba diving are immeasurable—a deep appreciation for the wonders of the ocean, a sense of connection with the natural world, and a commitment to the preservation of these precious underwater ecosystems. Scuba diving is an adventure like no other, offering a glimpse into a hidden world that few have the privilege to explore.</p>
+        </div>
 
+        <section>
+          <h3>Some Facts About Scuba Diving</h3>
+          <ul class="facts">
+            <li>Scuba diving was invented in 1943 by Jacques-Yves Cousteau and Emile Gagnan.</li>
+            <li>The deepest scuba dive on record is 332.35 meters (1,090 feet).</li>
+            <li>Coral reefs, covering less than 1% of the ocean floor, support around 25% of all marine species.</li>
+            <li>Scuba divers often need to undergo certification courses for safety and training.</li>
+            <li>Scuba diving offers physical fitness benefits and reduces stress.</li>
+            <li>Scuba divers often become advocates for marine conservation.</li>
+            <li>Excessive noise from human activities can disrupt marine life and ecosystems.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Contact to learn more</h3>
+
+          <section class="form">
+            <form action="index.html" method="get">
+
+              <div>
+                <label for="name">Your Name</label>
+                <input id="name" name="name" type="text">
+              </div>
+
+              <div>
+                <label for="email">Your Email</label>
+                <input type="email" name="email" id="email">
+              </div>
+
+              <div>
+                <label for="comment">Your Message</label>
+                <textarea name="comment" id="comment" rows="5"></textarea>
+              </div>
+
+              <div class="radio">
+                <h3>Would you like to explore the depths?</h3>
+
+                <label for="yes">Yes</label>
+                <input type="radio" name="reply" id="yes">
+
+                <label for="no">No</label>
+                <input type="radio" name="reply" id="no">
+
+                <label for="maybe">Maybe</label>
+                <input type="radio" name="reply" id="maybe">
+              </div>
+
+              <div>
+                <button class="button" type="submit">Send</button>
+              </div>
+
+            </form>
+          </section>
+
+        </section>
+
+      </article>
+    </main>
+
+    <footer>
+      <p>&copy; Saksham Bhardwaj</p>
+    </footer>
+  </div>
 </body>
 </html>
