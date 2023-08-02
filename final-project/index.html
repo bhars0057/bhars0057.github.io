@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Final-Project</title>
+</head>
+
+<body>
+
+  <header>
+    <!-- Wrapper class is going to be used to contain all the content -->
+    <div class="wrapper">
+
+      <img src="images/logo.png" alt="Three star media logo">
+
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <form class="search-btn" action="#">
+        <input type="text" placeholder="Search" name="search">
+        <button type="submit"><i class="material-icons">search</i></button>
+      </form>
+
+    </div>
+  </header>
+
+  <main>
+    <!-- I'll put the image in background with absolute position -->
+    <section id="first-fold">
+      <img src="images/main-banner.jpg" alt="Three star media's headquater">
+      <div class="wrapper">
+        <h1>Welcome to Three Star Media</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias accusamus laboriosam modi nemo blanditiis,
+          velit molestiae laborum facilis accusantium explicabo dignissimos. Aspernatur obcaecati facere sequi iure
+          exercitationem earum! Quae, qui!</p>
+        <button>Connect with us<span class="material-icons">arrow_right</span></button>
+      </div>
+    </section>
+
+    <!-- I will use 2 flex boxes for this section. First div contain data by row and second will contain data by column -->
+    <section id="about-us">
+      <div class="wrapper">
+        <img src="images/about-us.jpg" alt="Fun activities at office">
+        <div class="text-content">
+          <h2>About Us</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, minima corrupti. Aspernatur commodi
+            doloribus, blanditiis magnam maiores, minima alias doloremque vitae sequi harum error natus atque soluta,
+            quas voluptatem eaque.</p>
+          <p>Eos quas odit assumenda asperiores delectus voluptates sint dolores aperiam sed reprehenderit ad pariatur
+            ipsam corrupti ab in non explicabo nihil, saepe ipsum fuga quod sit laboriosam itaque quidem! Qui?</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- I will use the grid to align the content to the desired location -->
+    <section id="our-services">
+      <div class="wrapper">
+        <h2>Our services</h2>
+        <div class="services-grid">
+
+          <article>
+            <header>
+              <img src="images/digital.jpg" alt="A person using smartphone and a laptop simultaneously">
+            </header>
+            <h3>Digital Transformation</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias minima suscipit eveniet similique,
+              dolores quasi tempora mollitia cupiditate nisi quae ipsam omnis. Ullam dolor aperiam, odit nemo tempore
+              est voluptatibus.</p>
+            <button>Digital Plans<span class="material-icons">arrow_right</span></button>
+          </article>
+
+          <article>
+            <header>
+              <img src="images/marketing.jpg" alt="A laptop showing stats">
+            </header>
+            <h3>Marketing</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias minima suscipit eveniet similique,
+              dolores quasi tempora mollitia cupiditate nisi quae ipsam omnis. Ullam dolor aperiam, odit nemo tempore
+              est voluptatibus.</p>
+            <button>Marketing Plans<span class="material-icons">arrow_right</span></button>
+          </article>
+
+          <article>
+            <header>
+              <img src="images/video.jpg" alt="A person using smartphone">
+            </header>
+            <h3>Video Production</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias minima suscipit eveniet similique,
+              dolores quasi tempora mollitia cupiditate nisi quae ipsam omnis. Ullam dolor aperiam, odit nemo tempore
+              est voluptatibus.</p>
+            <button>Video Plans<span class="material-icons">arrow_right</span></button>
+          </article>
+
+          <article>
+            <header>
+              <img src="images/web.jpg" alt="A smartphone with a digital pen">
+            </header>
+            <h3>Web Development</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias minima suscipit eveniet similique,
+              dolores quasi tempora mollitia cupiditate nisi quae ipsam omnis. Ullam dolor aperiam, odit nemo tempore
+              est voluptatibus.</p>
+            <button>Web Plans<span class="material-icons">arrow_right</span></button>
+          </article>
+
+          <article>
+            <header>
+              <img src="images/print.jpg" alt="Printing advertisements">
+            </header>
+            <h3>Print</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias minima suscipit eveniet similique,
+              dolores quasi tempora mollitia cupiditate nisi quae ipsam omnis. Ullam dolor aperiam, odit nemo tempore
+              est voluptatibus.</p>
+            <button>Print Plans<span class="material-icons">arrow_right</span></button>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- I will use absolute position to put image in background -->
+    <section class="our-vision">
+      <img src="images/vision.jpg" alt="Paper boats on a table">
+      <div class="wrapper">
+        <h2>Our Vision</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores harum ipsum id unde aut officiis a saepe
+          enim, odio corporis, quidem eius velit iusto quia quaerat dolorem delectus, cupiditate minus!</p>
+        <button>Learn More<span class="material-icons">arrow_right</span></button>
+      </div>
+    </section>
+
+    <!-- This section contains a grid which will further be aranged to put all the content at their own position -->
+    <section class="our-team">
+      <div class="wrapper">
+        <h2>Our Team</h2>
+        <div class="team-grid">
+          <img src="images/john.jpg" alt="John - CEO of Three star media">
+          <div>
+            <h3>John Doe</h3>
+            <p><strong>CEO and Co-owner</strong></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eos minima consectetur! Tempore vel eaque
+              dicta nostrum quasi nobis, mollitia atque alias ad aliquid recusandae magnam incidunt. Molestias, enim
+              illum.</p>
+          </div>
+          <img src="images/bob.jpg" alt="Bob- CFO of Three star media">
+          <div>
+            <h3>Bob Rite</h3>
+            <p><strong>CFO and Co-owner</strong></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eos minima consectetur! Tempore vel eaque
+              dicta nostrum quasi nobis, mollitia atque alias ad aliquid recusandae magnam incidunt. Molestias, enim
+              illum.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- I divided contact us section in grid so I can arrange the position of Hours of operation when it reaches a certain breakpoint-->
+    <section class="contact-us">
+      <div class="wrapper">
+        <h2>Contact Us</h2>
+        <div class="contact-grid">
+          <div>
+            <h3>Send us a message</h3>
+            <form action="#" method="get">
+              <div>
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name">
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+              </div>
+              <div>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+              </div>
+              <div>
+                <button type="submit">Send</button>
+              </div>
+            </form>
+          </div>
+          <div>
+            <h3>Hours of operation</h3>
+            <table>
+              <thead>
+                <tr>
+                  <th>Days</th>
+                  <th>Hours</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Monday - Friday</td>
+                  <td>9 AM - 6 PM</td>
+                </tr>
+                <tr>
+                  <td>Saturday - Sunday</td>
+                  <td>Closed</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div>
+            <h3>Location</h3>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d22433.08279488353!2d-75.736448!3d45.34608!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sus!4v1690422028748!5m2!1sen!2sus"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; Copyright Three Star Media, 2020</p>
+    <p>All images were takens from <a href="https://unsplash.com/" target="_blank">Unsplash</a></p>
+  </footer>
+
+</body>
+
+</html>
