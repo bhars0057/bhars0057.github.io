@@ -6,24 +6,32 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+    rel="stylesheet">
   <title>Final-Project</title>
 </head>
 
 <body>
 
-  <header>
+  <header class="nav-header">
     <!-- Wrapper class is going to be used to contain all the content -->
     <div class="wrapper">
 
-      <img src="images/logo.png" alt="Three star media logo">
+      <div class="image-container">
+        <img id="logo" src="images/logo.png" alt="Three star media logo">
+      </div>
 
       <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Team</a></li>
-          <li><a href="#">Contact</a></li>
+        <ul class="navigation-list">
+          <li class="navigation"><a href="#">Home</a></li>
+          <li class="navigation"><a href="#">About Us</a></li>
+          <li class="navigation"><a href="#">Services</a></li>
+          <li class="navigation"><a href="#">Team</a></li>
+          <li class="navigation"><a href="#">Contact</a></li>
         </ul>
       </nav>
 
@@ -38,13 +46,15 @@
   <main>
     <!-- I'll put the image in background with absolute position -->
     <section id="first-fold">
-      <img src="images/main-banner.jpg" alt="Three star media's headquater">
+      <img id="hero-image" src="images/main-banner.jpg" alt="Three star media's headquater">
       <div class="wrapper">
         <h1>Welcome to Three Star Media</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias accusamus laboriosam modi nemo blanditiis,
-          velit molestiae laborum facilis accusantium explicabo dignissimos. Aspernatur obcaecati facere sequi iure
-          exercitationem earum! Quae, qui!</p>
-        <button>Connect with us<span class="material-icons">arrow_right</span></button>
+        <p id="mobile-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias accusamus laboriosam modi nemo
+          blanditiis.</p>
+        <p id="desktop-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias accusamus laboriosam modi nemo
+          blanditiis, velit molestiae laborum facilis accusantium explicabo dignissimos. Aspernatur obcaecati facere
+          sequi iure exercitationem earum! Quae, qui!</p>
+        <button id="connect_us">Connect with us<span class="material-icons">arrow_right</span></button>
       </div>
     </section>
 
@@ -73,55 +83,65 @@
             <header>
               <img src="images/digital.jpg" alt="A person using smartphone and a laptop simultaneously">
             </header>
-            <h3>Digital Transformation</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias minima suscipit eveniet similique,
-              dolores quasi tempora mollitia cupiditate nisi quae ipsam omnis. Ullam dolor aperiam, odit nemo tempore
-              est voluptatibus.</p>
-            <button>Digital Plans<span class="material-icons">arrow_right</span></button>
+            <div class="article-content">
+              <h3>Digital Transformation</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias minima suscipit eveniet similique,
+                dolores quasi tempora mollitia cupiditate nisi quae ipsam omnis. Ullam dolor aperiam, odit nemo tempore
+                est voluptatibus.</p>
+              <button>Digital Plans<span class="material-icons">arrow_right</span></button>
+            </div>
           </article>
 
           <article>
             <header>
               <img src="images/marketing.jpg" alt="A laptop showing stats">
             </header>
-            <h3>Marketing</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias minima suscipit eveniet similique,
-              dolores quasi tempora mollitia cupiditate nisi quae ipsam omnis. Ullam dolor aperiam, odit nemo tempore
-              est voluptatibus.</p>
-            <button>Marketing Plans<span class="material-icons">arrow_right</span></button>
+            <div class="article-content">
+              <h3>Marketing</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias minima suscipit eveniet similique,
+                dolores quasi tempora mollitia cupiditate nisi quae ipsam omnis. Ullam dolor aperiam, odit nemo tempore
+                est voluptatibus.</p>
+              <button>Marketing Plans<span class="material-icons">arrow_right</span></button>
+            </div>
           </article>
 
           <article>
             <header>
               <img src="images/video.jpg" alt="A person using smartphone">
             </header>
-            <h3>Video Production</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias minima suscipit eveniet similique,
-              dolores quasi tempora mollitia cupiditate nisi quae ipsam omnis. Ullam dolor aperiam, odit nemo tempore
-              est voluptatibus.</p>
-            <button>Video Plans<span class="material-icons">arrow_right</span></button>
+            <div class="article-content">
+              <h3>Video Production</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias minima suscipit eveniet similique,
+                dolores quasi tempora mollitia cupiditate nisi quae ipsam omnis. Ullam dolor aperiam, odit nemo tempore
+                est voluptatibus.</p>
+              <button>Video Plans<span class="material-icons">arrow_right</span></button>
+            </div>
           </article>
 
           <article>
             <header>
               <img src="images/web.jpg" alt="A smartphone with a digital pen">
             </header>
-            <h3>Web Development</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias minima suscipit eveniet similique,
-              dolores quasi tempora mollitia cupiditate nisi quae ipsam omnis. Ullam dolor aperiam, odit nemo tempore
-              est voluptatibus.</p>
-            <button>Web Plans<span class="material-icons">arrow_right</span></button>
+            <div class="article-content">
+              <h3>Web Development</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias minima suscipit eveniet similique,
+                dolores quasi tempora mollitia cupiditate nisi quae ipsam omnis. Ullam dolor aperiam, odit nemo tempore
+                est voluptatibus.</p>
+              <button>Web Plans<span class="material-icons">arrow_right</span></button>
+            </div>
           </article>
 
           <article>
             <header>
               <img src="images/print.jpg" alt="Printing advertisements">
             </header>
-            <h3>Print</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias minima suscipit eveniet similique,
-              dolores quasi tempora mollitia cupiditate nisi quae ipsam omnis. Ullam dolor aperiam, odit nemo tempore
-              est voluptatibus.</p>
-            <button>Print Plans<span class="material-icons">arrow_right</span></button>
+            <div class="article-content">
+              <h3>Print</h3>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias minima suscipit eveniet similique,
+                dolores quasi tempora mollitia cupiditate nisi quae ipsam omnis. Ullam dolor aperiam, odit nemo tempore
+                est voluptatibus.</p>
+              <button>Print Plans<span class="material-icons">arrow_right</span></button>
+            </div>
           </article>
 
         </div>
@@ -129,8 +149,8 @@
     </section>
 
     <!-- I will use absolute position to put image in background -->
-    <section class="our-vision">
-      <img src="images/vision.jpg" alt="Paper boats on a table">
+    <section id="our-vision">
+      <img id="vision-bg" src="images/vision.jpg" alt="Paper boats on a table">
       <div class="wrapper">
         <h2>Our Vision</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores harum ipsum id unde aut officiis a saepe
@@ -140,32 +160,39 @@
     </section>
 
     <!-- This section contains a grid which will further be aranged to put all the content at their own position -->
-    <section class="our-team">
+    <section id="our-team">
       <div class="wrapper">
         <h2>Our Team</h2>
         <div class="team-grid">
-          <img src="images/john.jpg" alt="John - CEO of Three star media">
-          <div>
-            <h3>John Doe</h3>
-            <p><strong>CEO and Co-owner</strong></p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eos minima consectetur! Tempore vel eaque
-              dicta nostrum quasi nobis, mollitia atque alias ad aliquid recusandae magnam incidunt. Molestias, enim
+          <div class="john">
+            <img src="images/john.jpg" alt="John - CEO of Three star media">
+            <div class="team-content">
+              <h3>John Doe</h3>
+              <strong>CEO and Co-owner</strong>
+              <hr>
+
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eos minima consectetur! Tempore vel
+              eaque dicta nostrum quasi nobis, mollitia atque alias ad aliquid recusandae magnam incidunt. Molestias, enim
               illum.</p>
+            </div>
           </div>
-          <img src="images/bob.jpg" alt="Bob- CFO of Three star media">
-          <div>
-            <h3>Bob Rite</h3>
-            <p><strong>CFO and Co-owner</strong></p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eos minima consectetur! Tempore vel eaque
-              dicta nostrum quasi nobis, mollitia atque alias ad aliquid recusandae magnam incidunt. Molestias, enim
-              illum.</p>
+          <div class="bob">
+            <img src="images/bob.jpg" alt="Bob- CFO of Three star media">
+            <div class="team-content">
+              <h3>Bob Rite</h3>
+              <strong>CFO and Co-owner</strong>
+              <hr>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eos minima consectetur! Tempore vel
+              eaque dicta nostrum quasi nobis, mollitia atque alias ad aliquid recusandae magnam incidunt. Molestias,
+              enimillum.</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <!-- I divided contact us section in grid so I can arrange the position of Hours of operation when it reaches a certain breakpoint-->
-    <section class="contact-us">
+    <section id="contact-us">
       <div class="wrapper">
         <h2>Contact Us</h2>
         <div class="contact-grid">
@@ -214,7 +241,7 @@
             <h3>Location</h3>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d22433.08279488353!2d-75.736448!3d45.34608!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sus!4v1690422028748!5m2!1sen!2sus"
-              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              height="350" style="border:0;" allowfullscreen="" loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
@@ -224,8 +251,10 @@
   </main>
 
   <footer>
-    <p>&copy; Copyright Three Star Media, 2020</p>
-    <p>All images were takens from <a href="https://unsplash.com/" target="_blank">Unsplash</a></p>
+    <div class="wrapper">
+      <p>&copy; Copyright Three Star Media, 2020</p>
+      <p>All images were taken from <a href="https://unsplash.com/" target="_blank">Unsplash</a></p>
+    </div>
   </footer>
 
 </body>
