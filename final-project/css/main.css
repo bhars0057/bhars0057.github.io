@@ -294,6 +294,11 @@ hr {
   display: grid;
 }
 
+.john img, .bob img{
+  height: auto;
+}
+
+
 /* Contact us setion */
 
 /* Message section */
