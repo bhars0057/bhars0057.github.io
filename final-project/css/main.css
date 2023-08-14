@@ -270,10 +270,14 @@ button{
 .team-content{
   background-color: #ffe6ac;
   padding: 10px;
-
 }
+
 .team-content h3{
   padding-bottom: 0;
+}
+
+.team-conten img{
+  object-fit: cover;
 }
 
 hr {
